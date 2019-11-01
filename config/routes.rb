@@ -1,11 +1,8 @@
 Rails.application.routes.draw do
-  get 'pages/whoweare'
-  get 'pages/surf'
-  get 'pages/store'
-  get 'pages/artgallery'
-  get 'pages/contact'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  get 'pages/whoweare'
+  get 'whoweare', to: 'pages#whoweare'
+  get 'surf', to: 'pages#surf'
+  get 'store', to: 'pages#store'
+  get 'artgallery', to: 'pages#artgallery'
+  get 'contact', to: 'pages#contact'
 
-  get 'pages/surf'
 end
