@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get 'artgallery', to: 'pages#artgallery'
   get 'contact', to: 'pages#contact'
 
+  root to: 'pages#home'
+
 end
