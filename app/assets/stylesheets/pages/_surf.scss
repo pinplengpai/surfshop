@@ -1,11 +1,12 @@
 .h1-box{
-  margin-left: 109px;
+  margin-left: 122px;
   margin-top: 50px;
   height: 100px;
-  max-width: 300px;
+  max-width: 239px;
   background-color: rgba(20, 246, 222, 0.36);
+  border-radius: 5px;
 } .h1-box h1{
-  margin-left: -82px !important
+  margin-left: -71px !important
 }
 
 .image-4 {
@@ -22,12 +23,12 @@
 }
 
 .p-box{
-  margin-top: -16px;
-  height: 408px;
-  max-width: 240px;
+  margin-top: -28px;
+  height: 435px;
+  max-width: 305px;
   background-color: rgba(193, 242, 227, 0.59);
   padding: 26px;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
 // .p-box p {
@@ -37,7 +38,8 @@
 @media(max-width: 768px) {
   .image-4 {
     box-shadow:6px -6px 1px 0px rgba(250, 255, 0, 0.35);
-    margin-left: 22px;
+    margin-right:auto;
+    margin-left: auto;
     height: 416px;
     max-width: 644px;
     background-size: cover;
@@ -46,14 +48,14 @@
     filter: saturate(0.5);
   }
   .p-box {
-    height: 298px;
+    height: 361px;
     max-width: 350px;
-    background-color: rgba(71, 105, 95, 0.59);
+    background-color: rgba(193, 242, 227, 0.59);
     padding: 26px;
     border-radius: 4px;
     margin-bottom: 29px;
     margin-top: 19px;
     margin-right: -7px;
     margin-left: auto;
-  }
+    margin-right: auto;  }
 }
