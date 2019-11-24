@@ -1,17 +1,43 @@
 // Specific CSS for your home-page
 
-  .map-image {
-    max-width: 400px;
-    height:500px;
-    box-shadow: 8px -11px 5px 0px #CCCCCC;
 
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: saturate(0.8);
+.map-image {
+  max-width: 509px;
+  height: 677px;
+  position: sticky;
+  top:0;
+  box-shadow: 8px -11px 5px 0px #CCCCCC;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: saturate(0.8);
+}
+
+.funfact-info {
+  background-color: rgba(193, 242, 227, 0.59);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 2px;
+  li {
+  list-style-type: none;
   }
+}
+
+.basic-info {
+  background-color: rgba(250, 255, 0, 0.35);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 2px;
+  li{
+  list-style-type: none;
+  }
+}
+
+
 
 @media(max-width: 768px) {
   .map-image {
+    height: 459px;
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
