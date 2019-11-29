@@ -34,10 +34,10 @@ default: &default
   password: <%= ENV['POSTGRES_PASSWORD'] %>
 development:
   <<: *default
-  database: surfshop_development
+  database: ElClub_development
 test:
   <<: *default
-  database: surfshop_test
+  database: ElClub_test
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
 
@@ -45,6 +45,6 @@ production:
   <<: *default
   # encoding: unicode
   pool: 25
-  database: surfshop_production
-  username: surfshop
-  password: <%= ENV['SURFSHOP_POSTGRES_PASSWORD'] %>
+  database: ElClub_production
+  username: ElClub
+  password: <%= ENV['ELCLUB_POSTGRES_PASSWORD'] %>
