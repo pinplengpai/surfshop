@@ -34,10 +34,10 @@ default: &default
   password: <%= ENV['POSTGRES_PASSWORD'] %>
 development:
   <<: *default
-  database: ElClub_development
+  database: manta_development
 test:
   <<: *default
-  database: ElClub_test
+  database: manta_test
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
 
@@ -45,6 +45,6 @@ production:
   <<: *default
   # encoding: unicode
   pool: 25
-  database: ElClub_production
-  username: ElClub
-  password: <%= ENV['ELCLUB_POSTGRES_PASSWORD'] %>
+  database: manta_production
+  username: manta
+  password: <%= ENV['MANTA_POSTGRES_PASSWORD'] %>
