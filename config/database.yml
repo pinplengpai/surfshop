@@ -46,5 +46,5 @@ production:
   # encoding: unicode
   pool: 25
   database: surfshop_production
-  username: <%= ENV['MYAPP_POSTGRES_USER'] %>
-  password: <%= ENV['MYAPP_POSTGRES_PASSWORD'] %>
+  username: surfshop
+  password: <%= ENV['SURFSHOP_POSTGRES_PASSWORD'] %>
