@@ -10,11 +10,13 @@ $headers-font: "TheSkinny", "Helvetica", "sans-serif";
   font-family: "TheSkinny";
   src: font-url('TheSkinny.otf') format('truetype');
   src: font-url('TheSkinny-bold.otf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
   font-family: "Best Rock Regular";
-  src: url('Best Rock.woff') format('woff');
+  src: font-url('Best Rock.woff') format('woff');
   font-style: normal;
   font-weight: normal;
 }
