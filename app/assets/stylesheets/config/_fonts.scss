@@ -1,19 +1,26 @@
 // Import Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 // Define fonts for body and headers
-$body-font: "Inconsolata", "Helvetica", "sans-serif";
-$headers-font: "Sulphur Point", "Helvetica", "sans-serif";
+$body-font: "Best Rock Regular", "Helvetica", "sans-serif";
+$headers-font: "TheSkinny", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
+@font-face {
+  font-family: "TheSkinny";
+  src: font-url('TheSkinny.otf') format('truetype');
+  src: font-url('TheSkinny-bold.otf') format('truetype');
+}
+
+@font-face {
+  font-family: "Best Rock Regular";
+  src: url('Best Rock.woff') format('woff');
+  font-style: normal;
+  font-weight: normal;
+}
+
 //   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
 //        font-url('FontFile.woff') format('woff'),
 //        font-url('FontFile.ttf') format('truetype')
-// }
+
 // $my-font: "Font Name";
