@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 // Define fonts for body and headers
-$body-font: "Best Rock Regular", "Helvetica", "sans-serif";
+$body-font: "Best Rock", "Helvetica", "sans-serif";
 $headers-font: "TheSkinny", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
@@ -12,8 +12,11 @@ $headers-font: "TheSkinny", "Helvetica", "sans-serif";
   src: font-url('TheSkinny-bold.otf') format('truetype');
   font-style: normal;
   font-weight: normal;
-  font-family: "Best Rock Regular";
-  src: url('Best Rock.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Best Rock";
+  src: url('Best Rock.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
 }
